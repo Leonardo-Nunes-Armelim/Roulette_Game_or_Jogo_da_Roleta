@@ -3106,7 +3106,6 @@ while True:
     mouse = pg.mouse.get_pos()
     mouse_x = mouse[0]
     mouse_y = mouse[1]
-    #print(str(mouse_x) + ', ' + str(mouse_y))
 
     click_get = pg.mouse.get_pressed()
     last_click_right = click_right
